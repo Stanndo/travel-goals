@@ -1,16 +1,49 @@
+/* --------- header  --------------- */
+/* html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+} */
+
 body {
     font-family: "Quicksand", sans-serif;
     margin: 0;
 }
 
-ul {
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
-ul a {
+header li {
+    padding-left: 30px;
+}
+
+header ul a {
+    color: rgb(255, 251, 0);
     text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+header ul a:hover {
+    color: rgb(77, 77, 77);
+    background-color: rgb(255, 251, 0);
 }
 
 #main-logo a {
@@ -22,3 +55,6 @@ ul a {
     text-transform: uppercase;
     text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
+
+/* -----------  main content -------------- */
+
